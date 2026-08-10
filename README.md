@@ -1,14 +1,14 @@
-# 🍕 Bot de Pizzaria - Telegram
+#  Bot de Pizzaria - Telegram
 
 Bot simples para Telegram, desenvolvido em Python com a biblioteca [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI), que simula o atendimento de uma pizzaria: recebe pedidos, reclamações e elogios através de comandos.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - Menu interativo com opções de pedido, reclamação e elogio
 - Escolha entre pizza, hambúrguer ou salada
 - Responde automaticamente a qualquer mensagem que não seja um comando válido, orientando o usuário
 
-## 🤖 Comandos disponíveis
+##  Comandos disponíveis
 
 | Comando       | Descrição                          |
 |---------------|-------------------------------------|
@@ -19,7 +19,7 @@ Bot simples para Telegram, desenvolvido em Python com a biblioteca [pyTelegramBo
 | `/hamburguer` | Pedir hambúrguer                    |
 | `/salada`     | Pedir salada                        |
 
-## 🚀 Como executar
+##  Como executar
 
 ### Pré-requisitos
 
@@ -60,15 +60,15 @@ $env:TELEGRAM_BOT_TOKEN="seu_token_aqui"
 python bot.py
 ```
 
-## 🔒 Segurança
+##  Segurança
 
 Este projeto usa variáveis de ambiente para proteger o token do bot. **Nunca** faça commit do seu token diretamente no código-fonte. Caso ele seja exposto acidentalmente, revogue-o imediatamente pelo [@BotFather](https://t.me/BotFather) usando o comando `/revoke`.
 
-## 🛠️ Tecnologias utilizadas
+##  Tecnologias utilizadas
 
 - [Python](https://www.python.org/)
 - [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
 
-## 📄 Licença
+##  Licença
 
 Este projeto é livre para uso e modificação.
